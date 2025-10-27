@@ -1,0 +1,12 @@
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-color: #24292f;
+  color: white;
+  padding: 1rem 2rem;
+}
