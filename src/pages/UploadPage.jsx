@@ -14,7 +14,7 @@ const UploadPage = () => {
     formData.append("username", username);
 
     const response = await fetch(
-      "https://<your-function-app-name>.azurewebsites.net/api/UploadToBlob",
+      "https://fileuploadfunction-h6a4dmhuewcdf4hz.canadacentral-01.azurewebsites.net/api/UploadFile?code=YTGWmhQRcGJL-hLs94TyzwfKQWc2rOiS6YxgMah3Q3BoAzFusSaGng==",
       {
         method: "POST",
         body: formData,
